@@ -38,3 +38,4 @@ print(add(12, 8))
 
 muvelet = muveletek["div"]
 print(muvelet(12,8))
+print(muvelet(121,8))
