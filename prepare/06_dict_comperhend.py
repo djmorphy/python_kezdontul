@@ -1,5 +1,5 @@
 # dictionary comperhensions - szotar megertesek
-
+0
 
 nevek = ["Andi", "Erika", "Zsofi"]
 korok = [23, 45, 34]
