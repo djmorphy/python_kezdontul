@@ -9,7 +9,7 @@ A wrapper belső függvény becsomagolja a divide() függvényt-t
 
 """
 
-
+#dekoralo fgv
 def validate_div(func):
     def wrapper(value1, value2):
         if value2 == 0:
@@ -22,6 +22,7 @@ def validate_div(func):
 ezzel dekorálom azaz ilyenkor hívja meg a string szöveget és nem a default hibaüzenetet kapom 
 ha 0-val osztok
 """
+#dekoralt fgv
 @validate_div
 def divide(value1,value2):
     return value1 / value2
