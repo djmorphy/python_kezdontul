@@ -43,7 +43,7 @@ def validate_form(func):
     return wrapper # visszaadjuk a csomagolt fgv
 
 @validate_form
-def form(passwrd, email):
+def form(password, email):
     return "Your password is strong and you have valid email"
 
 print(form("1234", "itere"))
